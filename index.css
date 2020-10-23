@@ -38,7 +38,7 @@ body {
     grid-column: 2 / -1;
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 40em) {
     .container {
         display: grid;
         grid-template-columns: minmax(100px,1fr) repeat(8,1fr) minmax(100px,1fr);
